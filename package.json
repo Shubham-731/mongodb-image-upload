@@ -1,0 +1,21 @@
+{
+  "name": "upload-download-image",
+  "version": "1.0.0",
+  "description": "This is an image uploading downloading app made by using express, multer, mongoose and many other packages.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Shubham",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.2.4",
+    "multer": "^1.4.4"
+  }
+}
